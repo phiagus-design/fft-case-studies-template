@@ -1,0 +1,11 @@
+FINAL ANALYSIS 
+Computed Solar Cycle Period : 10.84 years.
+
+1. Mathematical Expectaions & FFT accuracy
+berdasarkan pengelolan data menggunakan algoritma fast fourier transform (FFt), kami berhasil mengidentifikasikan puncak spekturm daya pada frekuensi f=0.0922 cycles/years. Dengan menggunakan hubungan T=1/f, diperoleh hasil perhitungan sebesar 10.84 tahun, Tahap DC Removal yang kami lakukan di awal terbukti sangat krusial : tanpa pengurangan nilai rata rata, komponen frekuensi nol akan menutupi sinyal periodik asli dari aktivitas magahari.
+
+2. Physical Interpretation: The Schabe Cycle 
+hasil perhitungan sebesar 10,84 tahun ini menunjukan akurasi yang sangat tinggi karena sangat mendekati durasi rata rata Siklus Schwabe yang secara umum diketahui sebesar 11 tahun. Keberhasilan FFT dalam mengisolasi angka ini  menunjukan bahwa meskipun data historis bintik matahari memiliki noise yang sangat tinggi dan fluktuasi jangka pendek yang tidak beraturan, terdapat keteraturan magnetik yang konsisten di balik denomena tersebut.
+
+3. Secondary Peaks and Observations
+Selain puncak utama, kami mengamati adanya beberapa puncak sekunder dengan magnitudo yang lebih rendah di sekitar frekuensi utama. Secara fisik, hal ini dapat merepresentasikan variasi jangka panjang (seperti Gleissberg cycle) atau sekadar harmonisa matematis akibat bentuk gelombang siklus matahari yang tidak murni sinusoidal sempurna. Penggunaan FFT terbukti sebagai alat yang sangat kuat untuk mengekstraksi informasi fisis dari data deret waktu astrofisika yang kompleks.
